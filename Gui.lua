@@ -1,13 +1,7 @@
---[[
-    		Harmony Interface		
 
-    Author: 4lpaca
-    License: MIT
-    GitHub: https://github.com/3345-c-a-t-s-u-s/Harmony
---]]
 
 local HM = {
-	Version = '1.1',
+	Version = '0.1',
 	EnableIcon = true,
 };
 
