@@ -1018,7 +1018,7 @@ HM.Assets = { -- Icons
 function HM.new(self)
 	self.Title = self.Title or "Harmony";
 	self.Scale = self.Scale or UDim2.new(0, 500, 0, 345);
-	self.Keybind = self.Keybind or Enum.KeyCode.LeftAlt;
+	self.Keybind = self.Keybind or _G.Key;
 
 	self.Toggle = true;
 	self.Cache = {};
