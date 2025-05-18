@@ -26,7 +26,7 @@ function HM:NewInput(frame : Frame) : TextButton
 	local Bth = Instance.new('TextButton',frame);
 
 	Bth.ZIndex = frame.ZIndex + 10;
-	Bth.Size = UDim2.fromScale(1,1);
+	Bth.Size = UDim2.fromScale(0, 100, 0, 100);
 	Bth.BackgroundTransparency = 1;
 	Bth.TextTransparency = 1;
 
